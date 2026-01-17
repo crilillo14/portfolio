@@ -1,0 +1,4 @@
+baseURL = 'https://crilillo.me/'
+languageCode = 'en-us'
+title = 'Cristobal Lillo'
+theme = 'archie'
