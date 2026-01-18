@@ -1,18 +1,60 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Cristobal Lillo</title>
-    <link>https://crilillo.me/</link>
-    <description>Recent content on Cristobal Lillo</description>
+    <title>Home on Cristobal Lillo</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content in Home on Cristobal Lillo</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 17 Jan 2026 13:34:23 -0500</lastBuildDate>
-    <atom:link href="https://crilillo.me/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Software Engineer Intern, Data Processing</title>
+      <link>http://localhost:1313/experience/job-1/</link>
+      <pubDate>Sat, 01 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/experience/job-1/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Distributed ETL Framework</title>
+      <link>http://localhost:1313/projects/project-1/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/project-1/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Statistical Simulation Toolkit</title>
+      <link>http://localhost:1313/projects/project-2/</link>
+      <pubDate>Thu, 01 Jun 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/project-2/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Research Software Engineer</title>
+      <link>http://localhost:1313/experience/job-2/</link>
+      <pubDate>Wed, 15 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/experience/job-2/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>ML Training Pipeline</title>
+      <link>http://localhost:1313/projects/project-3/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/project-3/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Software Engineer</title>
+      <link>http://localhost:1313/experience/job-3/</link>
+      <pubDate>Tue, 01 May 2018 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/experience/job-3/</guid>
+      <description></description>
+    </item>
     <item>
       <title>First Post</title>
-      <link>https://crilillo.me/first-post/</link>
+      <link>http://localhost:1313/blog/first-post/</link>
       <pubDate>Sat, 17 Jan 2026 13:34:23 -0500</pubDate>
-      <guid>https://crilillo.me/first-post/</guid>
+      <guid>http://localhost:1313/blog/first-post/</guid>
       <description>&lt;h1 id=&#34;total-post&#34;&gt;Total post&lt;/h1&gt;</description>
     </item>
   </channel>

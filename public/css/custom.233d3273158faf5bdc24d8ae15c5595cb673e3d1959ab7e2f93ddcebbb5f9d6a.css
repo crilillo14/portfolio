@@ -1,0 +1,7 @@
+/* Subtitle under name */
+.subtitle {
+  margin: 0.25rem 0 0 0;
+  font-size: 0.95rem;
+  color: var(--gray, #666);
+  font-weight: normal;
+}

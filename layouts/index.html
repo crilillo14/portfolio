@@ -1,0 +1,32 @@
+{{ define "main" }}
+<main class="list">
+
+  {{ with .Content }}
+  <div class="site-description">
+    {{ . }}
+  </div>
+  {{ end }}
+
+  <section>
+    <h2>Experience</h2>
+    {{ range sort (where .Site.RegularPages "Section" "experience") "Params.weight" "asc" }}
+    <section class="list-item">
+      <h1 class="title">{{ .Title }}</h1>
+      <span class="meta">{{ .Params.company }} · {{ dateFormat "Jan 2006" .Date }} – {{ .Params.endDate | default "Present" }}</span>
+      <p>{{ .Params.description }}</p>
+    </section>
+    {{ end }}
+  </section>
+
+  <section>
+    <h2>Projects</h2>
+    {{ range sort (where .Site.RegularPages "Section" "projects") "Params.weight" "asc" }}
+    <section class="list-item">
+      <h1 class="title">{{ .Title }}{{ with .Params.github }} — <a href="{{ . }}">GitHub</a>{{ end }}</h1>
+      <p>{{ .Params.description }}</p>
+    </section>
+    {{ end }}
+  </section>
+
+</main>
+{{ end }}
